@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackatime Wrapped</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <div id="login-screen" class="screen active">
+        <h1>Hackatime Wrapped</h1>
+        <p>Enter your Slack ID to see your year in code.</p>
+        <input type="text" id="user-id" placeholder="U12345678" />
+        <button id="start-btn">Get Wrapped</button>
+      </div>
+
+      <div id="loading-screen" class="screen">
+        <div class="loader"></div>
+        <p id="loading-text">Crunching the numbers...</p>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <div id="wrapped-screen" class="screen">
+        <div class="slide-container" id="slide-container">
+          <!-- add stuff here -->
+        </div>
+        <div class="controls">
+          <button id="prev-btn">←</button>
+          <div id="app-footer">
+            Made with love by
+            <a href="https://github.com/pizzalover125" target="_blank"
+              >@pizzalover125</a
+            >
+          </div>
+          <button id="next-btn">→</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
