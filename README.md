@@ -1,26 +1,38 @@
 # Hackatime Wrapped
 
-A web-based "Wrapped" experience for your Hackatime stats.
-
-## How to use
-
-1.  Open `index.html` in your web browser.
-2.  Enter your Hackatime User ID (Slack ID).
-3.  Wait for the data to be fetched (it fetches daily stats for the current year).
-4.  Enjoy your summary!
+Spotify Wrapped, but for your Hackatime stats.
 
 ## Features
 
-- Total coding hours
-- Top 3 most productive days
-- Top 3 most productive weeks
-- Top 3 most productive months
-- Favorite Language
-- Favorite OS
-- Most unproductive week
-- Longest streak
+* Slides
+    * Contribution Graph
+    * Total Hours
+    * Most Productive Days
+    * Most Productive Weeks
+    * Most Productive Months
+    * Favorite Language
+    * Favorite Day
+    * Most Unproductive Week
+    * Longest Streak
+    * Longest Inactive Streak
 
-## Note
 
-This runs entirely in the browser. It fetches data directly from the Hackatime API.
-Due to the number of requests (one per day of the year), it might take a minute to load.
+* Summary PNG
+    * Contribution Graph
+    * Top Languages
+    * Least Productive Week
+    * Total Hours
+    * Most Productive Days
+    * Longest Streak
+    * Best Month
+    * Longest Inactive Streak
+ 
+## Technical Stuff
+Made with raw HTML, CSS, and JS; the best framework is no framework at all. 
+
+## Screenshots
+<img width="657" height="654" alt="image" src="https://github.com/user-attachments/assets/b5c0d6db-4c18-4f35-a4a1-40b2cc4b1aa3" />
+<img width="1071" height="308" alt="image" src="https://github.com/user-attachments/assets/3dd199a5-8c2f-4725-b5dc-0e41c04f766a" />
+<img width="4000" height="4000" alt="image" src="https://github.com/user-attachments/assets/3c0fc66d-aecf-468b-b91d-dcc758cf0a52" />
+
+
